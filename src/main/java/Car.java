@@ -3,6 +3,13 @@ public class Car extends Vehicle {
     private int numberOfDoors;
     private boolean hasSunroof;
 
+
+    public Car(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int numberOfDoors, boolean hasSunroof) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+        this.numberOfDoors = numberOfDoors;
+        this.hasSunroof = hasSunroof;
+    }
+
     // Getter and Setter for numberOfDoors
     public int getNumberOfDoors() {
         return numberOfDoors;
