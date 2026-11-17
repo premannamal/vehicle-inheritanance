@@ -23,6 +23,6 @@ public class SemiTruck extends Vehicle {
 
     // Custom behavior unique to a SemiTruck
     public void soundAirHorn() {
-        System.out.println("HONK! HONK! The " + getColor() + " semi-truck is hauling " + numberOfTrailers + " trailer(s) with a max cargo of " + getCargoCapacity() + " lbs.");
+        System.out.println(" HONK! HONK! The " + getColor() + " semi-truck is hauling " + numberOfTrailers + " trailer(s) with a max cargo of " + getCargoCapacity() + " lbs.");
     }
 }
