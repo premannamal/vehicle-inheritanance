@@ -10,6 +10,10 @@ public class Car extends Vehicle {
         this.hasSunroof = hasSunroof;
     }
 
+    public Car(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+    }
+
     // Getter and Setter for numberOfDoors
     public int getNumberOfDoors() {
         return numberOfDoors;

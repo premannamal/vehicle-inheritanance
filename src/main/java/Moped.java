@@ -10,6 +10,10 @@ import java.util.*;
                 this.maxSpeedMph = maxSpeedMph;
             }
 
+            public Moped(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+                super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+            }
+
 
             // Getter and Setter for hasPedals
             public boolean isHasPedals() {

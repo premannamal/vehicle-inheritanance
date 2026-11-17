@@ -18,6 +18,10 @@ public class SemiTruck extends Vehicle {
         this.hasSleeperCab = hasSleeperCab;
     }
 
+    // Constructor matching the 4 Vehicle parameters
+    public SemiTruck(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+    }
 
     // Getter and Setter for hasSleeperCab
     public boolean isHasSleeperCab() {
