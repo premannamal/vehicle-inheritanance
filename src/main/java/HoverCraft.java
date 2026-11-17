@@ -4,7 +4,7 @@ public class HoverCraft extends Vehicle {
     private boolean isAmphibious;
 
 
-    public HoverCraft(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int hoverHeightInches, boolean isAmphobious) {
+    public HoverCraft(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int hoverHeightInches, boolean isAmphibious) {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
         this.hoverHeightInches = hoverHeightInches;
         this.isAmphibious = isAmphibious;
@@ -25,8 +25,8 @@ public class HoverCraft extends Vehicle {
         return isAmphibious;
     }
 
-    public void setAmphibious(boolean amphibious) {
-        isAmphibious = amphibious;
+    public void setAmphibious(boolean isAmphibious) {
+        isAmphibious = isAmphibious;
     }
 
     // Custom behavior unique to a Hovercraft
