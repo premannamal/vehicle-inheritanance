@@ -3,6 +3,14 @@ public class HoverCraft extends Vehicle {
     private int hoverHeightInches;
     private boolean isAmphibious;
 
+
+    public Hovercraft(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int hoverHeightInches, boolean isAmphobious) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+        this.hoverHeightInches = hoverHeightInches;
+        this.isAmphibious = isAmphibious;
+    }
+
+
     // Getter and Setter for hoverHeightInches
     public int getHoverHeightInches() {
         return hoverHeightInches;
