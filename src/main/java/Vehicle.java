@@ -62,7 +62,7 @@ public class Vehicle {
         freightHauler.setCargoCapacity(45000);
 
         // 4. Hovercraft instance
-        Hovercraft coastalGlider = new Hovercraft();
+        HoverCraft coastalGlider = new HoverCraft();
         coastalGlider.setColor("Orange");
         coastalGlider.setFuelCapacity(80);
         coastalGlider.setNumberOfPassengers(10);
