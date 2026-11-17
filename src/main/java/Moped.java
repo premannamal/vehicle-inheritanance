@@ -4,6 +4,13 @@ import java.util.*;
             private boolean hasPedals;
             private int maxSpeedMph;
 
+            public Moped(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, boolean hasPedals, int maxSpeedMph) {
+                super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+                this.hasPedals = hasPedals;
+                this.maxSpeedMph = maxSpeedMph;
+            }
+
+
             // Getter and Setter for hasPedals
             public boolean isHasPedals() {
                 return hasPedals;
