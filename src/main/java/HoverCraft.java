@@ -14,6 +14,10 @@ public class HoverCraft extends Vehicle {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
     }
 
+    public HoverCraft() {
+        super(); // Optional, Java calls this automatically
+    }
+
     // Getter and Setter for hoverHeightInches
     public int getHoverHeightInches() {
         return hoverHeightInches;

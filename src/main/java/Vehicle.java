@@ -6,6 +6,13 @@ public class Vehicle {
     private int cargoCapacity;
     private int fuelCapacity;
 
+    public Vehicle() {
+        this.color = "Unknown";
+        this.numberOfPassengers = 0;
+        this.cargoCapacity = 0;
+        this.fuelCapacity = 0;
+    }
+
     public Vehicle(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
         this.color = color;
         this.numberOfPassengers = numberOfPassengers;
@@ -48,7 +55,18 @@ public class Vehicle {
 
     public static void main(String[] args) {
         // 1. Moped instance (using your exact example)
+        String color;
+        int numberOfPassengers;
+        int cargoCapacity;
+        int fuelCapacity;
+
         Moped slowRide = new Moped();
+        slowRide.setColor("Red");
+        slowRide.setFuelCapacity(5);
+
+        Moped slowRide = new Moped(color,numberOfPassengers,cargoCapacity,fuelCapacity);
+
+        //Moped slowRide = new Moped();
         slowRide.setColor("Red");
         slowRide.setFuelCapacity(5);
         slowRide.setNumberOfPassengers(1);

@@ -14,6 +14,9 @@ import java.util.*;
                 super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
             }
 
+            public Moped() {
+                super(); // Optional, Java calls this automatically
+            }
 
             // Getter and Setter for hasPedals
             public boolean isHasPedals() {

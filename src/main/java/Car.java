@@ -14,6 +14,10 @@ public class Car extends Vehicle {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
     }
 
+    public Car() {
+        super(); // Optional, Java calls this automatically
+    }
+
     // Getter and Setter for numberOfDoors
     public int getNumberOfDoors() {
         return numberOfDoors;

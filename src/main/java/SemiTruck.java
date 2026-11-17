@@ -23,6 +23,10 @@ public class SemiTruck extends Vehicle {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
     }
 
+    public SemiTruck() {
+        super(); // Optional, Java calls this automatically
+    }
+
     // Getter and Setter for hasSleeperCab
     public boolean isHasSleeperCab() {
         return hasSleeperCab;
